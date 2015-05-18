@@ -1,0 +1,67 @@
+Metric (key = "distance") {float {0.01}}
+Metric (key = "angle") {float {1}}
+Metric (key = "time") {float {1}}
+Metric (key = "up") {string {"y"}}
+
+GeometryNode $node1
+{
+	Name {string {"pPlane1"}}
+	ObjectRef {ref {$geometry1}}
+	MaterialRef (index = 0) {ref {$material1}}
+
+	Transform
+	{
+		float[16]
+		{
+			{0x3F800000, 0x00000000, 0x00000000, 0x00000000,		// {1, 0, 0, 0,
+			 0x00000000, 0x3F800000, 0x00000000, 0x00000000,		//  0, 1, 0, 0,
+			 0x00000000, 0x00000000, 0x3F800000, 0x00000000,		//  0, 0, 1, 0,
+			 0xBDCDD7F6, 0x00000000, 0xBFD594C8, 0x3F800000}		//  -0.10051, 0, -1.6686, 1}
+		}
+	}
+}
+
+GeometryObject $geometry1		// pPlane1
+{
+	Mesh (primitive = "triangles")
+	{
+		VertexArray (attrib = "position")
+		{
+			float[3]		// 3
+			{
+				{0xC2480000, 0x42480000, 0x00000000}, {0x42480000, 0xC2480000, 0x00000000}, {0x42480000, 0x42480000, 0x00000000}
+			}
+		}
+
+		VertexArray (attrib = "normal")
+		{
+			float[3]		// 3
+			{
+				{0x00000000, 0x00000000, 0x3F800000}, {0x00000000, 0x00000000, 0x3F800000}, {0x00000000, 0x00000000, 0x3F800000}
+			}
+		}
+
+		VertexArray (attrib = "texcoord")
+		{
+			float[2]		// 3
+			{
+				{0x00000000, 0x3F800000}, {0x3F800000, 0x00000000}, {0x3F800000, 0x3F800000}
+			}
+		}
+
+		IndexArray
+		{
+			unsigned_int32[3]		// 1
+			{
+				{0, 1, 2}
+			}
+		}
+	}
+}
+
+Material $material1
+{
+	Name {string {"lambert1"}}
+
+	Color (attrib = "diffuse") {float[3] {{0.4, 0.4, 0.4}}}
+}

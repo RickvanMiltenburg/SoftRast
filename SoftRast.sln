@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftRast", "Softrast\Softrast.vcxproj", "{B32B5583-E4A5-42D2-A26A-9262583082BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenDDL", "OpenGex-Import\OpenDDL\OpenDDL.vcxproj", "{1A000EBE-832E-4085-8853-B9298F8DD3BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGEX", "OpenGex-Import\OpenGEX\OpenGEX.vcxproj", "{8EF0F47D-3045-4C55-B736-5022167A4D3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenGEX-Import", "OpenGEX-Import", "{59995AF7-FB8F-446D-88ED-DAE308F898EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgui", "imgui\imgui.vcxproj", "{36E0A99D-0DF2-4073-8529-DB95E0442D7D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiltyAlloc", "MiltyAlloc\MiltyAlloc.vcxproj", "{E9914B74-D2B8-4D1E-ABC4-9E2C73A59076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B32B5583-E4A5-42D2-A26A-9262583082BF}.Debug|x64.ActiveCfg = Debug|x64
+		{B32B5583-E4A5-42D2-A26A-9262583082BF}.Debug|x64.Build.0 = Debug|x64
+		{B32B5583-E4A5-42D2-A26A-9262583082BF}.Release|x64.ActiveCfg = Release|x64
+		{B32B5583-E4A5-42D2-A26A-9262583082BF}.Release|x64.Build.0 = Release|x64
+		{1A000EBE-832E-4085-8853-B9298F8DD3BF}.Debug|x64.ActiveCfg = Debug|x64
+		{1A000EBE-832E-4085-8853-B9298F8DD3BF}.Debug|x64.Build.0 = Debug|x64
+		{1A000EBE-832E-4085-8853-B9298F8DD3BF}.Release|x64.ActiveCfg = Release|x64
+		{1A000EBE-832E-4085-8853-B9298F8DD3BF}.Release|x64.Build.0 = Release|x64
+		{8EF0F47D-3045-4C55-B736-5022167A4D3D}.Debug|x64.ActiveCfg = Debug|x64
+		{8EF0F47D-3045-4C55-B736-5022167A4D3D}.Debug|x64.Build.0 = Debug|x64
+		{8EF0F47D-3045-4C55-B736-5022167A4D3D}.Release|x64.ActiveCfg = Release|x64
+		{8EF0F47D-3045-4C55-B736-5022167A4D3D}.Release|x64.Build.0 = Release|x64
+		{36E0A99D-0DF2-4073-8529-DB95E0442D7D}.Debug|x64.ActiveCfg = Debug|x64
+		{36E0A99D-0DF2-4073-8529-DB95E0442D7D}.Debug|x64.Build.0 = Debug|x64
+		{36E0A99D-0DF2-4073-8529-DB95E0442D7D}.Release|x64.ActiveCfg = Release|x64
+		{36E0A99D-0DF2-4073-8529-DB95E0442D7D}.Release|x64.Build.0 = Release|x64
+		{E9914B74-D2B8-4D1E-ABC4-9E2C73A59076}.Debug|x64.ActiveCfg = Debug|x64
+		{E9914B74-D2B8-4D1E-ABC4-9E2C73A59076}.Debug|x64.Build.0 = Debug|x64
+		{E9914B74-D2B8-4D1E-ABC4-9E2C73A59076}.Release|x64.ActiveCfg = Release|x64
+		{E9914B74-D2B8-4D1E-ABC4-9E2C73A59076}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A000EBE-832E-4085-8853-B9298F8DD3BF} = {59995AF7-FB8F-446D-88ED-DAE308F898EF}
+		{8EF0F47D-3045-4C55-B736-5022167A4D3D} = {59995AF7-FB8F-446D-88ED-DAE308F898EF}
+	EndGlobalSection
+EndGlobal

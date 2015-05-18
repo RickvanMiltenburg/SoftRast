@@ -1,0 +1,9 @@
+intermediate
+/lib
+*.sdf
+*.suo
+*.opensdf
+bin/shader_bin/*.cso
+bin/*.exe
+bin/*.ilk
+bin/*.pdb
